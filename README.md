@@ -37,7 +37,7 @@ Dataset yang digunakan diambil dari **Australian Ocean Surface Waves Dataset fro
 ---
 
 ## ⚙️ Alur Penelitian & Metodologi
-Proyek ini diimplementasikan menggunakan arsitektur eksperimen yang ketat:
+Proyek ini diimplementasikan menggunakan arsitektur eksperimen yang ketat yaitu:
 1.  **Exploratory Data Analysis (EDA):** Visualisasi sebaran fitur numerik menggunakan Boxplot dan Histogram.
 2.  **Data Splitting:** Pembagian data secara berurutan (*sequential split*) untuk menghindari *data leakage* pada data deret waktu.
 3.  **Outlier Treatment:** Mengidentifikasi pencilan pada data *training* dan melakukan penanganan dengan strategi **Removal** (penghapusan total baris anomali).
